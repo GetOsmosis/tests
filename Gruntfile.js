@@ -7,16 +7,10 @@ module.exports = function(grunt) {
           }
       },
       login: {
-          tests: ['test/spec/login/*.js'],
-          options: {
-              // overwrite default settings
-              desiredCapabilities: {
-                  browserName: 'firefox'
-              }
-          }
+          tests: ['test/login/*.js']
       },
       form: {
-          tests: ['test/spec/form/*.js']
+          tests: ['test/questionnaire/*.js']
       }
       // ...
     },
